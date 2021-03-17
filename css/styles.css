@@ -1,0 +1,130 @@
+
+/*Insert CSS Here*/
+
+{box-sizing: border-box;}
+html {font: normal 100%/1.5 'Futura PT', 'Verdana', 'Arial', sans-serif;}
+
+.masthead img {
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+body {
+    background-color: #b199f2;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin: auto;
+    margin-top: 1rem;
+    margin-left: 0.6rem;
+    margin-right: 0.6rem;
+    padding: 1rem;
+}
+
+h1 {
+    font-size: 3rem;
+    font-family: 'Futura PT', 'Verdana', 'Arial', sans-serif;
+    line-height: 2rem;
+    margin-bottom: 0rem;
+    color: #392570;
+    text-align: center;
+}
+
+p {
+    color: whitesmoke;
+    text-align: center;
+    font-family: 'Futura PT', 'Verdana', 'Arial', sans-serif;
+    margin-bottom: 1.5rem;
+    font-size: 1.2rem;
+}
+
+input {
+    padding: 0.8rem;
+    margin-bottom: 0.2rem; 
+}
+
+button {
+    margin-top: 1.2rem;
+    margin-bottom: 2rem;
+    padding: 0.8rem;
+    border-radius: 0.2rem;
+    font-family: 'Futura PT', 'Verdana', 'Arial', sans-serif;
+    color: whitesmoke;
+    background-color: #392570;
+    font-size: 0.8rem; 
+}
+
+button:hover{
+    background-color: #9f8be8;
+    color: #000000;
+}
+
+li {
+    color: #392570;
+    font-family: 'Futura PT', 'Verdana', 'Arial', sans-serif;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid #392570;
+    padding-bottom: 5px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    line-height: 1.4rem;
+    font-size: 1rem; 
+}
+
+.social-media {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/*Desktop View*/
+
+@media only screen and (min-width: 35rem) {
+    
+    
+.masthead {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+}
+    
+.masthead img {
+    width: 40%; 
+}
+
+.main-content {
+    max-width: 50rem;
+    margin: 0rem auto 4rem auto;
+    font-size: 1.5rem; 
+}
+    
+h1 {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+    
+p {
+    font-size: 1.6rem;    
+}
+    
+button {
+    width: 10rem;   
+}
+    
+footer {
+    font-size: 1.5rem;
+}
+       
+/* desktop view closing bracket   */
+    
+}
